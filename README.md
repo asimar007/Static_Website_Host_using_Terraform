@@ -36,7 +36,7 @@ Modify the `main.tf` file: Update the `mybucket` and other configurations in the
 3.  Apply the changes
     
     ```
-    terraform apply
+    terraform apply -auto-approve
     ``` 
     
     Confirm the action and wait for the infrastructure to be provisioned.
